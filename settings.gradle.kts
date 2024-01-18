@@ -1,9 +1,9 @@
 rootProject.name = "woowahan"
 
 include(
-    "websocket-chatting",
-    "websocket-client",
-    "websocket-web"
+    "websocket:server",
+    "websocket:client",
+    "websocket:web"
 )
 
 pluginManagement {
