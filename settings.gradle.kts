@@ -3,7 +3,8 @@ rootProject.name = "woowahan"
 include(
     "websocket:server",
     "websocket:client",
-    "websocket:web"
+    "websocket:web",
+    "api:delivery-api"
 )
 
 pluginManagement {
