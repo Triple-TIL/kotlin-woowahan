@@ -9,6 +9,12 @@ plugins {
     id("io.spring.dependency-management")
 }
 
+configurations {
+    compileOnly {
+        extendsFrom(configurations.annotationProcessor.get())
+    }
+}
+
 allprojects {
     group = "${property("projectGroup")}"
     version = "${property("applicationVersion")}"
